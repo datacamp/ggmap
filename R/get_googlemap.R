@@ -335,7 +335,7 @@ get_googlemap <- function(
   # finalize filename
   # download.file(url, destfile = destfile, quiet = !messaging, mode = "wb")
   # message(paste0("Source : ", url))
-  message("Source : ", url)
+  # message("Source : ", url)
   response <- httr::GET(url)
   if (messaging) message(" done.")
 

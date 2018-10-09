@@ -468,7 +468,7 @@ get_stamenmap_tile <- function(maptype, zoom, x, y, color, force = FALSE, messag
   if(download_error) {
     message(paste0("Source FAILED : ", url))
   } else {
-    message(paste0("Source : ", url))
+    # message(paste0("Source : ", url))
   }
 
   # read in/format tile
